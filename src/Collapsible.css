@@ -1,0 +1,36 @@
+/* src/components/Collapsible.css */
+.collapsible {
+  border: 1px solid #444; /* Lighter border color for better visibility */
+  margin: 10px 0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.collapsible-header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.collapsible-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.collapsible-header span {
+  font-size: 24px;
+}
+
+.collapsible-content {
+  padding: 15px;
+  background-color: #222; /* Slightly lighter dark background */
+  color: #fff; /* White text color */
+}
+
+.collapsible-content p {
+  margin: 0;
+}

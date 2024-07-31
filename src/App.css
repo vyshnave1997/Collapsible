@@ -1,0 +1,11 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background-color: #121212; /* Dark background */
+  color: #fff; /* White text */
+  padding: 20px;
+}
+
+h1 {
+  color: #ffffff;
+}
